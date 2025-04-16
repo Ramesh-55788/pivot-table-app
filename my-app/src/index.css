@@ -1,0 +1,41 @@
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 1rem;
+  width: 180px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.row-header {
+  background-color: #e0f7fa;
+}
+
+.totals {
+  background-color: #ffe0b2;
+  font-weight: bold;
+}
